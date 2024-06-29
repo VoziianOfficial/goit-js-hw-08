@@ -75,6 +75,7 @@ const galleryMarkup = images.map(({ preview, original, description }) => {
       src="${preview}"
       data-source="${original}"
       alt="${description}"
+      style="width: 360px;"
     />
   </a>
 </li>

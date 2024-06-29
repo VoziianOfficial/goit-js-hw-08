@@ -1,17 +1,13 @@
 
-ul,
-ol {
-  list-style: none;
-}
 
 .gallery {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
+    list-style: none;
 }
 
-.gallery-image {
-    width: 360px;
-    height: 100%;
+.gallery-image{
+   height: 100%;
 }
