@@ -32,7 +32,13 @@ img {
     gap: 24px;
 }
 
+.gallery-item {
+  flex: 0 0 calc(33.33% - 16px);
+  margin-bottom: 24px; 
+  position: relative;
+}
+
 .gallery-image {
-    width: 360px;
-    height: 100%;
+  max-width: 100%;
+  height: auto;
 }
